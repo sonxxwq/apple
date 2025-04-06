@@ -1,18 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 header{
-  background:#777;
   display: flex;
-  align-items:center;
   justify-content: space-between;
-  border-bottom: 2px solid #000
-
+  align-items: center;
+  background: grey;
 }
-header img{
+.logo img{
+  height: 50px;
+}
+nav ul{
+  list-style:none;
+  display: flex;
+  gap: 15px;
+}
+nav ul a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px; 
+}
+nav ul a:hover{
+  color: red;
+}
+.videos{
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.video{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  margin-bottom: 40px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #AAA
+  margin-top: 10px;
+}
+
+*{
+  font-family: "Roboto Flex", sans-serif;
+}
+
+
+
+
+
+
+
+/* header img{
   width: 100px;
   padding: 10px;
   box-shadow:5px 5px 10px rgba(0,0,0,0.3);
 }
 header div{
  padding-right: 20px;
+
 }
 header div a{
  color: white;
@@ -49,3 +93,4 @@ article a:hover{
 article:hover{
    box-shadow:5px 5px 10px rgba(0,0,0,0.3);
 }
+ */
